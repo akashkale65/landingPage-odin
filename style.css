@@ -109,3 +109,25 @@ border-radius: 63%;
     font-style: italic;
     font-weight: 300;
 }
+
+.cont{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    margin: 100px;
+    padding: 80px;
+    border-radius: 30px;
+}
+
+.left-side{
+    flex-grow: 1;
+}
+
+.right-side button{
+    padding: 30px;
+    background: #3882f6;
+    border: 3px solid white;
+    color: white;
+    font-size: 30px;
+}
+
