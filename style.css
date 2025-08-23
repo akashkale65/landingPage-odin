@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -28,4 +30,44 @@
 a:link{
     color: white; 
     text-decoration: none;
+}
+
+.container{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 20px 50px 50px 50px;
+    
+}
+
+.hero-text{
+    flex-grow: 1;
+    color:  #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-order {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.hero-img{
+    flex-grow: 1;
+
+}
+
+.hero-img img{
+width: 500px;
+height: 500px;
+object-fit: contain;
+border-radius: 63%;
 }
