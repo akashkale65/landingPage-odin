@@ -131,3 +131,18 @@ border-radius: 63%;
     font-size: 30px;
 }
 
+.footer{
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding: 40px 90px 40px 90px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer h1{
+    font-size: 20px;
+    
+}
+
