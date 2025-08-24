@@ -16,15 +16,15 @@
 
 .logo{
     flex: 1;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .menu ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
     color:  #E5E7EB;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 a:link{
@@ -36,25 +36,26 @@ a:link{
     background-color: #1F2937;
     color: white;
     display: flex;
-    padding: 20px 50px 50px 50px;
+    padding: 30px 50px 50px 50px;
     
 }
 
 .hero-text{
-    flex-grow: 1;
     color:  #f9faf8;
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 900;
+    width: 60%;
 }
 
 .hero-text p{
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
+    padding-top: 10px;
 }
 
 .btn-order {
     margin-top: 40px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
     background-color: #3882f6;
     color: white;
@@ -62,11 +63,10 @@ a:link{
 
 .hero-img{
     flex-grow: 1;
-
 }
 
 .hero-img img{
-width: 300px;
+width: 500px;
 height: 300px;
 object-fit: contain;
 border-radius: 63%;
@@ -91,7 +91,7 @@ border-radius: 63%;
 }
 
 .card{
-    line-height: 40px;
+    line-height: 25px;
     font-size: 15px;
 }
 
@@ -100,8 +100,8 @@ border-radius: 63%;
 }
 
 .card img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 30%;
 }
 
