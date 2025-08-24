@@ -43,7 +43,7 @@ a:link{
 .hero-text{
     flex-grow: 1;
     color:  #f9faf8;
-    font-size: 48px;
+    font-size: 29px;
     font-weight: 900;
 }
 
@@ -66,8 +66,8 @@ a:link{
 }
 
 .hero-img img{
-width: 500px;
-height: 500px;
+width: 300px;
+height: 300px;
 object-fit: contain;
 border-radius: 63%;
 }
@@ -78,7 +78,7 @@ border-radius: 63%;
 }
 
 .sub-heading{
-    font-size: 36px;
+    font-size: 20px;
    color: #1f2937;
    font-weight: 900;
 }
@@ -92,12 +92,16 @@ border-radius: 63%;
 
 .card{
     line-height: 40px;
+    font-size: 15px;
 }
 
+.card h1{
+    font-size: 20px;
+}
 
 .card img{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border-radius: 30%;
 }
 
@@ -105,7 +109,7 @@ border-radius: 63%;
     background-color: #e5e7eb;
     padding: 90px 90px 90px 90px;
     text-align: center;
-    font-size: 36px;
+    font-size: 14px;
     font-style: italic;
     font-weight: 300;
 }
@@ -121,15 +125,18 @@ border-radius: 63%;
 
 .left-side{
     flex-grow: 1;
+    font-size: 20px;
 }
 
 .right-side button{
-    padding: 30px;
+    padding: 10px;
     background: #3882f6;
     border: 3px solid white;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
+
+
 
 .footer{
     background-color: #1F2937;
